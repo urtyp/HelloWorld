@@ -14,6 +14,7 @@
 		8669063C15DA3FE7008EC98F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669063B15DA3FE7008EC98F /* AppDelegate.m */; };
 		8669063F15DA3FE7008EC98F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8669063D15DA3FE7008EC98F /* MainMenu.xib */; };
 		8669064215DA3FE7008EC98F /* HelloWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8669064015DA3FE7008EC98F /* HelloWorld.xcdatamodeld */; };
+		8669064A15DA40E1008EC98F /* HelloWorldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669064915DA40E1008EC98F /* HelloWorldController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		8669063B15DA3FE7008EC98F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8669063E15DA3FE7008EC98F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8669064115DA3FE7008EC98F /* HelloWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWorld.xcdatamodel; sourceTree = "<group>"; };
+		8669064815DA40E1008EC98F /* HelloWorldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldController.h; sourceTree = "<group>"; };
+		8669064915DA40E1008EC98F /* HelloWorldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				8669063A15DA3FE6008EC98F /* AppDelegate.h */,
+				8669064815DA40E1008EC98F /* HelloWorldController.h */,
+				8669064915DA40E1008EC98F /* HelloWorldController.m */,
 				8669063B15DA3FE7008EC98F /* AppDelegate.m */,
 				8669063D15DA3FE7008EC98F /* MainMenu.xib */,
 				8669064015DA3FE7008EC98F /* HelloWorld.xcdatamodeld */,
@@ -172,6 +177,7 @@
 				8669063515DA3FE6008EC98F /* main.m in Sources */,
 				8669063C15DA3FE7008EC98F /* AppDelegate.m in Sources */,
 				8669064215DA3FE7008EC98F /* HelloWorld.xcdatamodeld in Sources */,
+				8669064A15DA40E1008EC98F /* HelloWorldController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
